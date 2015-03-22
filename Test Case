@@ -1,0 +1,19 @@
+ 
+ TEST CASE
+ 
+ x = rbind(c(2, 3), c(4, 5))
+> m = makeCacheMatrix(x)
+> m$get()
+     [,1] [,2]
+[1,]    2    3
+[2,]    4    5
+> cacheSolve(m)
+     [,1] [,2]
+[1,] -2.5  1.5
+[2,]  2.0 -1.0
+> cacheSolve(m)
+getting cached data
+     [,1] [,2]
+[1,] -2.5  1.5
+[2,]  2.0 -1.0
+> 
