@@ -1,5 +1,5 @@
  
- TEST CASE
+ ##TEST CASE for makeCacheMatrix
  
  x = rbind(c(2, 3), c(4, 5))
 > m = makeCacheMatrix(x)
